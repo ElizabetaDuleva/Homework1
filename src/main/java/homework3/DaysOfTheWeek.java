@@ -8,33 +8,34 @@ public class DaysOfTheWeek {
         System.out.println("Please enter а number from 1 to 7");
         int a = scanner.nextInt();
 
-        switch (a) {
-            case 1:
-                System.out.print("Monday");
-                break;
-            case 2:
-                System.out.print("Tuesday");
-                break;
-            case 3:
-                System.out.print("Wednesday");
-                break;
-            case 4:
-                System.out.print("Thursday");
-                break;
-            case 5:
-                System.out.print("Friday");
-                break;
-            case 6:
-                System.out.print("Saturday");
-                break;
-            case 7:
-                System.out.print("Sunday");
-                break;
-            default:
-                System.out.print("Incorrect information");
+            switch (a) {
+                case 1:
+                    System.out.printf("Monday\n");
+                    break;
+                case 2:
+                    System.out.printf("Tuesday\n");
+                    break;
+                case 3:
+                    System.out.printf("Wednesday\n");
+                    break;
+                case 4:
+                    System.out.printf("Thursday\n");
+                    break;
+                case 5:
+                    System.out.printf("Friday\n");
+                    break;
+                case 6:
+                    System.out.printf("Saturday\n");
+                    break;
+                case 7:
+                    System.out.printf("Sunday\n");
+                    break;
+                default:
+                    System.out.print("Incorrect information\n");
 
-        }
-        String DayOfTheWeek;
-        System.out.println("You have selected " + a + " day of the week is " ); // I don't know how to аdd the day at the end
+            }
+            String DayOfTheWeek;
+            System.out.println("You have selected " + a + " day of the week is " ); // I don't know how to аdd the day at the end
     }
+
 }
