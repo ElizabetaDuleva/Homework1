@@ -16,5 +16,12 @@ public class TheLargerNumber {
         System.out.println(a > b ? (a) + " is greater!" : (b) + " is greater!");
         System.out.println(a > c ? (a) + " is greater!" : (c) + " is greater!");
         System.out.println(b > c ? (b) + " is greater!" : (c) + " is greater!");
+
+        System.out.println("-------------------------");
+
+        Math.max(Math.max(a,b),c);
+        System.out.println("The largest number is: " + Math.max(Math.max(a,b),c));
+
     }
+
 }
